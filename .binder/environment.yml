@@ -4,15 +4,17 @@ channels:
 dependencies:
 # applications
 - jupyterlab=4.0
-- notebook=7.0.0b3
 - nbconvert=7
+- pip
+- pip:
+  - notebook=7.0.0b3
 # Lab Extensions
 - jupyter-offlinenotebook=0.2
 - jupyterlab-fasta=3.1
 - jupyterlab-geojson=3.1
 - jupyterlab-link-share=0.2
 # RTC
-- jupyterlab-collaboration
+- jupyter-collaboration
 # Python Kernel
 - ipykernel
 - xeus-python
@@ -23,7 +25,7 @@ dependencies:
 - altair=4.1
 - bqplot=0.12.20
 - dask=2020.12
-- matplotlib-base=3.1
+- matplotlib-base
 - pandas=1
 - python=3.8
 - scikit-image
