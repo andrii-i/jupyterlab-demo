@@ -35,10 +35,10 @@ dependencies:
 - traittypes==0.2.1
 - invoke
 # C++ Kernel
-- xeus-cling
-# - xtensor
-# - xtensor-blas
-# - xwidgets
-# - xleaflet
+- xeus-cling=0.10
+- xtensor=0.20.8
+- xtensor-blas=0.16.1
+- xwidgets=0.24.2
+- xleaflet=0.13.1
 # CLI tools
 - vim
