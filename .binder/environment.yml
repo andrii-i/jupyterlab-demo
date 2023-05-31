@@ -10,7 +10,7 @@ dependencies:
   - notebook=7.0.0b3
   - jupyter-collaboration
 # Lab Extensions
-- jupyter-offlinenotebook=0.2
+# - jupyter-offlinenotebook - still depends on `notebook`
 - jupyterlab-fasta=4.0
 - jupyterlab-geojson=4.0
 # Python Kernel
