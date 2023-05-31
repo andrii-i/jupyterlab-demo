@@ -7,7 +7,7 @@ dependencies:
 - nbconvert=7
 - pip
 - pip:
-  - notebook=7.0.0b3
+  - notebook==7.0.0b3
   - jupyter-collaboration
 # Lab Extensions
 - jupyterlab-fasta=3.3
