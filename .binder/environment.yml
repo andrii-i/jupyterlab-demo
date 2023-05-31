@@ -8,31 +8,29 @@ dependencies:
 - pip
 - pip:
   - notebook=7.0.0b3
+  - jupyter-collaboration
 # Lab Extensions
 - jupyter-offlinenotebook=0.2
-- jupyterlab-fasta=3.1
-- jupyterlab-geojson=3.1
-- jupyterlab-link-share=0.2
-# RTC
-- jupyter-collaboration
+- jupyterlab-fasta=4.0
+- jupyterlab-geojson=4.0
 # Python Kernel
 - ipykernel
 - xeus-python
 # Extensions
-- ipywidgets=7.6
-- widgetsnbextension=3.5
-- ipyleaflet=0.13
-- altair=4.1
-- bqplot=0.12.20
-- dask=2020.12
+- ipywidgets
+- widgetsnbextension
+- ipyleaflet
+- altair
+- bqplot
+- dask
 - matplotlib-base
-- pandas=1
-- python=3.8
+- pandas=2
+- python=3.10
 - scikit-image
 - scikit-learn
 - seaborn
 - tensorflow
-- sympy=1.4
+- sympy
 - pyyaml
 - traittypes==0.2.1
 - invoke=1.2
