@@ -3,17 +3,19 @@ channels:
 - nodefaults
 # applications
 - jupyterlab=4.0
+- notebook=7.0.0b3
 - nbconvert=7
-# extensions
+# Lab Extensions
 - jupyter-offlinenotebook=0.2
 - jupyterlab-fasta=3.1
 - jupyterlab-geojson=3.1
 - jupyterlab-link-share=0.2
-# Python Kernel
-- ipykernel
 # RTC
 - jupyterlab-collaboration
-- xeus-python=0.9
+# Python Kernel
+- ipykernel
+- xeus-python
+# Extensions
 - ipywidgets=7.6
 - widgetsnbextension=3.5
 - ipyleaflet=0.13
@@ -23,10 +25,10 @@ channels:
 - matplotlib-base=3.1
 - pandas=1
 - python=3.8
-- scikit-image=0.15
-- scikit-learn=0.21
-- seaborn=0.11
-- tensorflow=1.14
+- scikit-image
+- scikit-learn
+- seaborn
+- tensorflow
 - sympy=1.4
 - pyyaml
 - traittypes==0.2.1
