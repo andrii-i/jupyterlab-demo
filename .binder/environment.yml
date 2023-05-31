@@ -1,6 +1,7 @@
 channels:
 - conda-forge
 - nodefaults
+dependencies:
 # applications
 - jupyterlab=4.0
 - notebook=7.0.0b3
