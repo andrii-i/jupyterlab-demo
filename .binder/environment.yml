@@ -1,18 +1,18 @@
 channels:
 - conda-forge
 - nodefaults
-dependencies:
 # applications
-- jupyterlab=3.2
-- retrolab=0.3
-- nbconvert=6
+- jupyterlab=4.0
+- nbconvert=7
 # extensions
 - jupyter-offlinenotebook=0.2
 - jupyterlab-fasta=3.1
 - jupyterlab-geojson=3.1
 - jupyterlab-link-share=0.2
 # Python Kernel
-- ipykernel=6.5
+- ipykernel
+# RTC
+- jupyterlab-collaboration
 - xeus-python=0.9
 - ipywidgets=7.6
 - widgetsnbextension=3.5
@@ -22,7 +22,7 @@ dependencies:
 - dask=2020.12
 - matplotlib-base=3.1
 - pandas=1
-- python=3.7
+- python=3.8
 - scikit-image=0.15
 - scikit-learn=0.21
 - seaborn=0.11
