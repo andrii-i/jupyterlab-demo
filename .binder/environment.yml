@@ -10,9 +10,9 @@ dependencies:
   - notebook=7.0.0b3
   - jupyter-collaboration
 # Lab Extensions
+- jupyterlab-fasta=3.3
+- jupyterlab-geojson=3.4
 # - jupyter-offlinenotebook - still depends on `notebook`
-- jupyterlab-fasta=4.0
-- jupyterlab-geojson=4.0
 # Python Kernel
 - ipykernel
 - xeus-python
@@ -33,12 +33,12 @@ dependencies:
 - sympy
 - pyyaml
 - traittypes==0.2.1
-- invoke=1.2
+- invoke
 # C++ Kernel
-- xeus-cling=0.10
-- xtensor=0.20.8
-- xtensor-blas=0.16.1
-- xwidgets=0.24.2
-- xleaflet=0.13.1
+#- xeus-cling=0.10
+#- xtensor=0.20.8
+#- xtensor-blas=0.16.1
+#- xwidgets=0.24.2
+#- xleaflet=0.13.1
 # CLI tools
 - vim
